@@ -1,28 +1,28 @@
 import os
-import requests
+import json
 import random
+import requests
 from datetime import datetime, timezone, timedelta, date
-
 import holidays
 
 TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 event = os.environ.get("POST_EVENT", "AM")  # AM or PM
 
-# --- 시간/오늘 날짜(KST) ---
+# ---- 시간/오늘 날짜(KST) ----
 KST = timezone(timedelta(hours=9))
 now_kst = datetime.now(KST)
 today = now_kst.date()
 
-# --- 실행 타입: 수동이면 무조건 발행 ---
+# ---- 실행 타입: 수동이면 무조건 발행 ----
 is_manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
 
-# --- 거래일 판단(자동 실행일 때만 적용) ---
+# ---- 거래일 판단(자동 실행일 때만 적용) ----
 kr_holidays = holidays.KR()  # 대체공휴일 포함
-is_weekday = today.weekday() < 5  # 월0~금4
+is_weekday = today.weekday() < 5
 is_holiday = today in kr_holidays
 
-# (선택) 거래소가 추가로 쉬는 날이 있으면 여기에 추가 가능
+# (선택) 거래소 특수 휴장일이 있으면 추가
 extra_market_closures = set([
     # date(2026, 12, 31),
 ])
@@ -32,33 +32,41 @@ if not is_manual:
         print(f"Skip (not a trading day): {today} / holiday={is_holiday}")
         raise SystemExit(0)
 
-# --- 매일/슬롯(AM/PM)별로 문구 고정(재실행해도 동일) ---
+def load_jsonl(path: str):
+    items = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            items.append(json.loads(line))
+    if not items:
+        raise ValueError(f"{path} is empty")
+    return items
+
+morning = load_jsonl("quotes_morning.jsonl")
+afternoon = load_jsonl("quotes_afternoon.jsonl")
+
+# ---- 같은 날/같은 슬롯은 같은 명언 ----
 random.seed(f"{today.isoformat()}-{event}")
 
-# --- 오전: 투자 멘탈케어 자동생성(조합형) ---
-mood = ["불안", "조급함", "흔들림", "FOMO", "후회", "공포", "확신 과잉"]
-frame = ["시장은 늘 변동한다", "변동성은 환경이다", "단기 등락은 소음이다", "계획은 안전벨트다"]
-action = ["규칙부터 확인하자", "근거를 한 줄로 적고 결정하자", "호흡 한 번 하고 클릭하자", "체크리스트 3개만 보고 움직이자"]
-remind = ["‘잃지 않는 것’이 먼저다", "오늘의 목표는 ‘일관성’이다", "반복이 결과를 만든다", "원칙은 내가 지킨다"]
-
-# --- 오후: 오늘 수고 치하 자동생성(조합형) ---
-praise = ["오늘도 수고했어", "오늘도 잘 버텼다", "오늘 하루도 충분히 해냈다", "오늘의 너, 괜찮았다"]
-detail = ["결과보다 과정이 쌓였다", "중심을 잡으려 했다", "할 일만 하고 끝냈다", "감정에 끌려가지 않으려 했다"]
-close = ["이제는 쉬어도 된다", "내일은 내일의 장이 열린다", "오늘은 여기까지면 충분하다", "루틴을 지킨 하루는 이미 이긴 하루다"]
-
 if event == "AM":
+    q = random.choice(morning)
     text = (
-        f"🌅 {today} 아침 멘탈 케어\n"
-        f"- 오늘의 변수: {random.choice(mood)}\n"
-        f"- 리마인드: {random.choice(frame)}\n"
-        f"- 오늘의 행동: {random.choice(action)}\n"
-        f"- 한 줄: {random.choice(remind)}"
+        f"🌅 Morning Insight ({today})\n\n"
+        f"“{q['en']}”\n"
+        f"— {q['author']}\n\n"
+        f"💬 {q['ko']}\n"
+        f"🔪 {q['note']}"
     )
 else:
+    q = random.choice(afternoon)
     text = (
-        f"🌇 {today} 오늘 마무리\n"
-        f"{random.choice(praise)}. {random.choice(detail)}.\n"
-        f"👉 {random.choice(close)}"
+        f"🌇 Closing Reflection ({today})\n\n"
+        f"“{q['en']}”\n"
+        f"— {q['author']}\n\n"
+        f"💬 {q['ko']}\n"
+        f"🌿 {q['note']}"
     )
 
 url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
