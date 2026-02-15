@@ -13,10 +13,14 @@ KST = timezone(timedelta(hours=9))
 now_kst = datetime.now(KST)
 today = now_kst.date()
 
-# ✅ 거래일 판단: 평일 + 한국 공휴일 제외
-kr_holidays = holidays.KR()  # 대체공휴일 포함
-is_weekday = today.weekday() < 5  # 월(0)~금(4)
-is_holiday = today in kr_holidays
+# --- 실행 유형 구분 ---
+is_manual = os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+
+# --- 거래일 체크 (자동 실행일 때만 적용) ---
+if not is_manual:
+    if (not is_weekday) or is_holiday:
+        print(f"Skip (not a trading day): {today} / holiday={is_holiday}")
+        raise SystemExit(0)
 
 # (선택) 한국거래소가 추가로 쉬는 날이 있으면 여기에 수동 추가 가능
 extra_market_closures = set([
