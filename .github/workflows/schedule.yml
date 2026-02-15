@@ -1,0 +1,23 @@
+name: Telegram Scheduled Posts
+
+on:
+  schedule:
+    - cron: "0 0 * * 1-5"
+    - cron: "30 6 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Post to Telegram
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          POST_EVENT: ${{ (github.event.schedule == '0 0 * * 1-5' && 'AM') || 'PM' }}
+        run: python post.py
