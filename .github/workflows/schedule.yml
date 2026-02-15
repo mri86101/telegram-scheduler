@@ -2,12 +2,20 @@ name: Telegram Scheduled Posts
 
 on:
   schedule:
-    # GitHub Actions cron은 UTC 기준
+    # UTC 기준
     # KST 09:00 = UTC 00:00 (평일)
     - cron: "0 0 * * 1-5"
     # KST 15:30 = UTC 06:30 (평일)
     - cron: "30 6 * * 1-5"
   workflow_dispatch:
+    inputs:
+      post_event:
+        description: "AM or PM"
+        required: true
+        default: "AM"
+
+permissions:
+  contents: write
 
 jobs:
   post:
@@ -22,5 +30,5 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-          POST_EVENT: ${{ (github.event.schedule == '0 0 * * 1-5' && 'AM') || 'PM' }}
+          POST_EVENT: ${{ github.event_name == 'workflow_dispatch' && inputs.post_event || (github.event.schedule == '0 0 * * 1-5' && 'AM') || 'PM' }}
         run: python post.py
