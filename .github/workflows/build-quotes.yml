@@ -14,7 +14,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python build_quotes.py
+      -   run: |
+    python build_quotes.py
+    echo "현재 작업 디렉토리:"
+    pwd
+    echo "파일 목록:"
+    ls -al
+    echo "quotes 파일 검색:"
+    find . -maxdepth 3 -name "quotes_*jsonl" -print
       - name: Commit quotes
         run: |
           git add quotes_morning.jsonl quotes_afternoon.jsonl
