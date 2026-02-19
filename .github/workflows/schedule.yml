@@ -2,11 +2,10 @@ name: Telegram Scheduled Posts
 
 on:
   schedule:
-    # UTC 기준
-    # KST 09:00 = UTC 00:00 (평일)
-    - cron: "0 0 * * 1-5"
-    # KST 15:30 = UTC 06:30 (평일)
-    - cron: "30 6 * * 1-5"
+    # KST 08:00 = UTC 23:00 (전날)
+    - cron: "0 23 * * 0-4"
+    # KST 15:00 = UTC 06:00 (평일)
+    - cron: "0 6 * * 1-5"
   workflow_dispatch:
     inputs:
       post_event:
@@ -17,18 +16,33 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: telegram-post
+  cancel-in-progress: true
+
 jobs:
   post:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      TZ: Asia/Seoul
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install requests holidays
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install requests holidays
+
+      - name: Debug current time
+        run: date
+
       - name: Post to Telegram
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-          POST_EVENT: ${{ github.event_name == 'workflow_dispatch' && inputs.post_event || (github.event.schedule == '0 0 * * 1-5' && 'AM') || 'PM' }}
+          POST_EVENT: ${{ github.event_name == 'workflow_dispatch' && inputs.post_event || (github.event.schedule == '0 23 * * 0-4' && 'AM') || 'PM' }}
         run: python post.py
