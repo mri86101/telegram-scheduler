@@ -1,3 +1,100 @@
-{"en":"The stock market is a device for transferring money from the impatient to the patient.","author":"Warren Buffett","ko":"주식시장은 조급한 사람의 돈을 인내심 있는 사람에게 옮기는 장치다.","note":"오늘 조급하지 않으려 한 것만으로도 잘한 하루다. 인내는 계좌에 남는 실력이다."}
-{"en":"Risk comes from not knowing what you're doing.","author":"Warren Buffett","ko":"리스크는 내가 무엇을 하는지 모를 때 생긴다.","note":"오늘 ‘왜 이 선택을 했는지’ 설명할 수 있다면 충분하다. 기록은 리스크를 줄이는 습관이다."}
-{"en":"It's not supposed to be easy. Anyone who finds it easy is stupid.","author":"Charlie Munger","ko":"쉬워야 할 이유가 없다. 쉽게 느껴진다면 그건 위험한 착각이다.","note":"어려웠다면 정상이다. 그럼에도 루틴을 지킨 당신, 오늘도 잘 마무리했다."}
+{"id": "PM-c829866ebf", "author": "Warren Buffett", "en": "A calm close is a win, regardless of the tape.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-6a179219ca", "author": "Ed Seykota", "en": "You don't need perfect days; you need consistent ones.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-3c2b7213d3", "author": "John Bogle", "en": "Results fluctuate. Systems stay.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-5c4c5e8dad", "author": "Ed Seykota", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-95d2daa8ce", "author": "John Bogle", "en": "If you followed your rules, you earned the day.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-ce4e40235d", "author": "Seth Klarman", "en": "You don't need perfect days; you need consistent ones.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-b7531b2a66", "author": "Seth Klarman", "en": "You don't need perfect days; you need consistent ones.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-c552400dc7", "author": "Ray Dalio", "en": "A good night starts with a clean log.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-48dfbea364", "author": "Seth Klarman", "en": "You endured uncertainty. That's what investors do.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-b5f504f8ee", "author": "Morgan Housel", "en": "You can rest when your decisions are explainable.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-a84535e162", "author": "Charlie Munger", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-0ad9ae3dc8", "author": "Seth Klarman", "en": "A good night starts with a clean log.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-eb07332136", "author": "Seth Klarman", "en": "Patience is an asset you can measure in actions.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-e99b6c5d7c", "author": "Peter Lynch", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-68bed7e293", "author": "John Bogle", "en": "You endured uncertainty. That's what investors do.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-289a0443b3", "author": "John Bogle", "en": "Patience is an asset you can measure in actions.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-a1f95d5b36", "author": "Ed Seykota", "en": "Today you protected your process. That's progress.", "ko": "규칙을 지켰다면 오늘은 합격이다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-d7f5557db5", "author": "Benjamin Graham", "en": "You can rest when your decisions are explainable.", "ko": "규칙을 지켰다면 오늘은 합격이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-281c92d26b", "author": "Morgan Housel", "en": "A calm close is a win, regardless of the tape.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-8ae7b4cbc1", "author": "Morgan Housel", "en": "A good night starts with a clean log.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-2a62c152c7", "author": "Ray Dalio", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-343668ef2b", "author": "Seth Klarman", "en": "You endured uncertainty. That's what investors do.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-a0f4cf57e5", "author": "Seth Klarman", "en": "You can rest when your decisions are explainable.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-d085d79d0c", "author": "Morgan Housel", "en": "Results fluctuate. Systems stay.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-4983f6f15e", "author": "Charlie Munger", "en": "If you followed your rules, you earned the day.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-cacb0f01a5", "author": "Seth Klarman", "en": "Patience is an asset you can measure in actions.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-7144fbfbb2", "author": "John Bogle", "en": "Results fluctuate. Systems stay.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-abffe9114e", "author": "Seth Klarman", "en": "You don't need perfect days; you need consistent ones.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-afec52d262", "author": "Seth Klarman", "en": "Patience is an asset you can measure in actions.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-df20c0e96f", "author": "Benjamin Graham", "en": "You can rest when your decisions are explainable.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-6995718b41", "author": "Peter Lynch", "en": "A good night starts with a clean log.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-a4c26efb32", "author": "Benjamin Graham", "en": "A good night starts with a clean log.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-0111d86b4c", "author": "Peter Lynch", "en": "A good night starts with a clean log.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-f8983c0ed7", "author": "Charlie Munger", "en": "Patience is an asset you can measure in actions.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-b1dc8fafcc", "author": "Warren Buffett", "en": "You don't need perfect days; you need consistent ones.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-f868fd91df", "author": "Warren Buffett", "en": "You can rest when your decisions are explainable.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-dd9c3bdd42", "author": "Howard Marks", "en": "A calm close is a win, regardless of the tape.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-27ebea568a", "author": "Seth Klarman", "en": "A calm close is a win, regardless of the tape.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-f125cd13f7", "author": "Ray Dalio", "en": "Today you protected your process. That's progress.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-aeb92d35fd", "author": "Benjamin Graham", "en": "Results fluctuate. Systems stay.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-10f299079c", "author": "Ed Seykota", "en": "Today you protected your process. That's progress.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-c5efbec826", "author": "Howard Marks", "en": "A good night starts with a clean log.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-7bc4d535f9", "author": "Ray Dalio", "en": "You can rest when your decisions are explainable.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-aee8397014", "author": "Morgan Housel", "en": "Patience is an asset you can measure in actions.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-5b384ea013", "author": "Seth Klarman", "en": "A calm close is a win, regardless of the tape.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-7f105a42ec", "author": "Benjamin Graham", "en": "If you followed your rules, you earned the day.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-f682f7912b", "author": "Ed Seykota", "en": "You endured uncertainty. That's what investors do.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-0f0fcfd2b6", "author": "Seth Klarman", "en": "Today you protected your process. That's progress.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-e76e20cc66", "author": "Morgan Housel", "en": "You can rest when your decisions are explainable.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-5f48566167", "author": "Warren Buffett", "en": "If you followed your rules, you earned the day.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-bf2bc6f212", "author": "Morgan Housel", "en": "Results fluctuate. Systems stay.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-7882716315", "author": "Benjamin Graham", "en": "Patience is an asset you can measure in actions.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-fca92fd649", "author": "Ray Dalio", "en": "A good night starts with a clean log.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-9eee2bfdf4", "author": "Charlie Munger", "en": "If you followed your rules, you earned the day.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-3ce842a572", "author": "John Bogle", "en": "You endured uncertainty. That's what investors do.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-e3410d1c1e", "author": "Benjamin Graham", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-ef9e8d4464", "author": "Howard Marks", "en": "If you followed your rules, you earned the day.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-3dce5d54da", "author": "Warren Buffett", "en": "If you followed your rules, you earned the day.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-22da698418", "author": "Charlie Munger", "en": "If you followed your rules, you earned the day.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-43bda2378d", "author": "Seth Klarman", "en": "Today you protected your process. That's progress.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-e5dc364bc1", "author": "Ray Dalio", "en": "If you followed your rules, you earned the day.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-df171d9fe3", "author": "Howard Marks", "en": "You endured uncertainty. That's what investors do.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-355cb64c86", "author": "Charlie Munger", "en": "If you followed your rules, you earned the day.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-52b900a963", "author": "John Bogle", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-843df04664", "author": "Peter Lynch", "en": "Today you protected your process. That's progress.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-ace2593f39", "author": "Benjamin Graham", "en": "You don't need perfect days; you need consistent ones.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-ccb167d58d", "author": "Warren Buffett", "en": "Patience is an asset you can measure in actions.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-c8d7729db5", "author": "Ed Seykota", "en": "You endured uncertainty. That's what investors do.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-caa60363b7", "author": "Benjamin Graham", "en": "Results fluctuate. Systems stay.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-508b4cac68", "author": "Seth Klarman", "en": "You don't need perfect days; you need consistent ones.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-aece44b7bc", "author": "Peter Lynch", "en": "You can rest when your decisions are explainable.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-bb53211c9a", "author": "Ed Seykota", "en": "You don't need perfect days; you need consistent ones.", "ko": "규칙을 지켰다면 오늘은 합격이다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-6d2664f452", "author": "Howard Marks", "en": "A good night starts with a clean log.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-f9dc9b09b5", "author": "John Bogle", "en": "You endured uncertainty. That's what investors do.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-b2cdaff5db", "author": "Ray Dalio", "en": "Patience is an asset you can measure in actions.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-76fd177edb", "author": "Ed Seykota", "en": "Today you protected your process. That's progress.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-cd699b45ac", "author": "Morgan Housel", "en": "If you followed your rules, you earned the day.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-2e0b0f63c0", "author": "Morgan Housel", "en": "If you followed your rules, you earned the day.", "ko": "오늘 프로세스를 지킨 건 분명한 전진이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-5e0c7ec74a", "author": "Warren Buffett", "en": "A good night starts with a clean log.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-9894423723", "author": "Howard Marks", "en": "A good night starts with a clean log.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-8fe8972ccd", "author": "Howard Marks", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-3ff534b302", "author": "Ray Dalio", "en": "You don't need perfect days; you need consistent ones.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-2655b692ef", "author": "Peter Lynch", "en": "If you followed your rules, you earned the day.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-87d62e1ef7", "author": "John Bogle", "en": "You endured uncertainty. That's what investors do.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-d860f7bb38", "author": "Howard Marks", "en": "You endured uncertainty. That's what investors do.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-3d2a93db9d", "author": "Ed Seykota", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-f209ae3964", "author": "Howard Marks", "en": "You endured uncertainty. That's what investors do.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-08991de590", "author": "Howard Marks", "en": "Results fluctuate. Systems stay.", "ko": "좋은 밤은 기록이 깔끔할 때 시작한다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-678f27aa76", "author": "Peter Lynch", "en": "Results fluctuate. Systems stay.", "ko": "결과는 흔들려도 시스템은 남는다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-ddfa91dbcc", "author": "Ed Seykota", "en": "You can rest when your decisions are explainable.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-5b546b9c7d", "author": "Peter Lynch", "en": "You can rest when your decisions are explainable.", "ko": "차분한 마감은 그 자체로 승리다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-cd54eafb6e", "author": "Charlie Munger", "en": "You can rest when your decisions are explainable.", "ko": "복리는 평범한 절제의 반복에서 만들어진다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-5f8d8eaab2", "author": "Seth Klarman", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "인내는 행동으로 측정되는 자산이다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-569fa0c443", "author": "Warren Buffett", "en": "If you followed your rules, you earned the day.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "시장이 어땠든, 루틴을 지킨 당신은 잘했다."}
+{"id": "PM-87d9225f77", "author": "Ray Dalio", "en": "Compounding is built from ordinary, repeated restraint.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "오늘의 성과: ‘무리한 한 번’이 아니라 ‘기준을 지킨 하루’다."}
+{"id": "PM-6e370df0e3", "author": "Morgan Housel", "en": "Patience is an asset you can measure in actions.", "ko": "불확실성을 견뎠다. 그게 투자자의 일이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
+{"id": "PM-401cf930c7", "author": "John Bogle", "en": "Results fluctuate. Systems stay.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-d829ec3726", "author": "Charlie Munger", "en": "You can rest when your decisions are explainable.", "ko": "완벽한 하루보다 일관된 하루가 필요하다.", "note": "오늘의 교훈 하나만 챙기면 충분하다."}
+{"id": "PM-2c99c6b6a0", "author": "Morgan Housel", "en": "A calm close is a win, regardless of the tape.", "ko": "결정을 설명할 수 있다면 편히 쉬어도 된다.", "note": "자기비난 금지. 데이터만 남기자."}
+{"id": "PM-8322c1e71d", "author": "Peter Lynch", "en": "You endured uncertainty. That's what investors do.", "ko": "규칙을 지켰다면 오늘은 합격이다.", "note": "내일을 위해: 오늘의 판단 1줄 요약만 남기고 종료."}
