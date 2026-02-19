@@ -1,4 +1,4 @@
-name: Build Quotes (200/200)
+name: Build Quotes
 
 on:
   workflow_dispatch:
@@ -9,21 +9,34 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      -   run: |
-    python build_quotes.py
-    echo "현재 작업 디렉토리:"
-    pwd
-    echo "파일 목록:"
-    ls -al
-    echo "quotes 파일 검색:"
-    find . -maxdepth 3 -name "quotes_*jsonl" -print
-      - name: Commit quotes
+
+      - name: Run quote generator
         run: |
+          python build_quotes.py
+          echo "파일 생성 확인:"
+          ls -al
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add quotes_morning.jsonl quotes_afternoon.jsonl
-          git commit -m "Generate quotes 200/200" || echo "No changes"
+
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+            exit 0
+          fi
+
+          git commit -m "Update quotes"
           git push
