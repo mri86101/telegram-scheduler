@@ -2,7 +2,7 @@ name: Telegram Scheduled Posts
 
 on:
   schedule:
-    # KST 08:00 = UTC 23:00 (전날)
+    # KST 08:00 = UTC 23:00 (전날) -> 월~금 아침 8시를 맞추려면 UTC는 일~목(0-4)
     - cron: "0 23 * * 0-4"
     # KST 15:00 = UTC 06:00 (평일)
     - cron: "0 6 * * 1-5"
@@ -32,7 +32,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
       - name: Install dependencies
         run: pip install requests holidays
