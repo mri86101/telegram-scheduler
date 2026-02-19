@@ -36,6 +36,11 @@ jobs:
       - name: Install dependencies
         run: pip install requests holidays
 
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Debug current time
         run: date
 
